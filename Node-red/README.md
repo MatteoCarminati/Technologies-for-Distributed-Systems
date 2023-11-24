@@ -1,12 +1,14 @@
-# Technologies-for-Distributed-Systems
-Repository to test some types of technologies used for the Network of Distributed Systems.
-The technologies used and tested are:
-- [Kafka](/Kafka)
-- [Akka](/Akka)
+# Node-red Scenario
+Implementation of a telegram chatbot, used to test the knowledge of Node-red.
+The chatbot uses two additional extensions of Node-red which are:
+- `node-red-node-openweathermap`, used for retrieving the temperature and other atmospherical data from cities all over the world
+- `node-red-contrib-chatbot`, to set up correctly the bot on telegram, and to forward the messages asked to the bot to the Node-Red environment
 
-For each technlogy we developed a small example to understand and to apply the knowledge of the technology studied.
-In each repository there is also another ReadMe file that explains the example developed.
+In particular the chatbot can be used only if there is an active instance of the Node-red program.
+It can be addressed from any device which have a connection to internet and an account on Telegram.
 
-Work done with:
-- Matteo Carminati
-- Andrea Pirrotta
+The bot is very simple, and it can answer only to 4 possible statements
+- if you say 'My name is X' then the chatbot will answer with 'Hello X'
+- if you ask 'What is the temperature in Milan/Rome', it will answer with the current temperature retrieved though the openweathermap extension
+- if you ask anything else, then the chatbot will answer with 'I don't get what you asked...'
+
