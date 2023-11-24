@@ -7,6 +7,10 @@ The chatbot uses two additional extensions of Node-red which are:
 In particular the chatbot can be used only if there is an active instance of the Node-red program.
 It can be addressed from any device which have a connection to internet and an account on Telegram.
 
+<p align="center">
+  <img src="/Images/IMG_6834.png" />
+</p>
+
 The bot is very simple, and it can answer only to 4 possible statements
 - if you say 'My name is X' then the chatbot will answer with 'Hello X'
 - if you ask 'What is the temperature in Milan/Rome', it will answer with the current temperature retrieved though the openweathermap extension
