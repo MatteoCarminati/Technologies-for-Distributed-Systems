@@ -8,7 +8,7 @@ In particular the chatbot can be used only if there is an active instance of the
 It can be addressed from any device which have a connection to internet and an account on Telegram.
 
 <p align="center">
-  <img src="/Technologies-for-Distributed-Systems/main/Node-red/Images/IMG_6834.jpg" />
+  <img src="/Node-red/Images/IMG_6834.jpg" />
 </p>
 
 The bot is very simple, and it can answer only to 4 possible statements
