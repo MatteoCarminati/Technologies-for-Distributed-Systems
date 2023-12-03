@@ -6,7 +6,7 @@ Three input datasets
 Fields: city, region
 2. citiesPopulation – Type: static, csv file
 Fields: id (of the city), city, population
-3.bookings – Type: dynamic, stream
+3. bookings – Type: dynamic, stream
 Fields: timestamp, value
 Each entry with value x indicates that someone booked a hotel in the city with id = x
 
