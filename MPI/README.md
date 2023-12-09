@@ -2,7 +2,7 @@
 Some exercises to test our knowledge of MPI.
 
 1. Simulation to estimate the value of Pi
-For each process we extract a random number for x and y. Then we check how many times this equation x^2+y^2 <= 1 is satisfied.
+For each process we extract a random number for x and y. Then we check how many times this equation `x^2+y^2 <= 1` is satisfied.
 Then we multiply this value * 4 and divide by the number of processes and numbers of iterations for each process.
 The final value should be an estimation of pi.
 
