@@ -6,6 +6,7 @@ The technologies used and tested are:
 - [Node-red](/Node-red)
 - [Spark](/Spark)
 - [MPI](/MPI)
+- [Contiki-NG](/Contiki-NG)
 
 For each technlogy we developed a small example to understand and to apply the knowledge of the technology studied.
 In each repository there is also another ReadMe file that explains the example developed.
