@@ -12,5 +12,5 @@ For each technlogy we developed a small example to understand and to apply the k
 In each repository there is also another ReadMe file that explains the example developed.
 
 Work done with:
-- Matteo Carminati
 - Andrea Pirrotta
+- Lorenzo Torri
